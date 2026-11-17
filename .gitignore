@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Temporary working files
+tmp/
+*.tmp
+
+# Runtime output (log, report, protected config) - sinh lại khi chạy
+Logs/
+Reports/*.csv
+Reports/*.xlsx
+Reports/KetQuaKiemThuTuDong.txt
+Reports/BienBanKiemThuTrienKhai-*.txt
+Config/connection.protected
+
+# Publish: giữ tệp chạy, bỏ dữ liệu sinh ra khi kiểm thử
+Publish/Logs/
+Publish/Reports/
+Publish/Config/
+
+# Hệ điều hành
+Thumbs.db
+desktop.ini
